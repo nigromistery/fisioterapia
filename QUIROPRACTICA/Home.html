@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Assets/Estilos/Home.css">
+    <link rel="shortcut icon" href="Assets/Imagenes/ICON.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <title>Revive</title>
+  </head>
+  <body background ="red;">
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+       const parte2 = document.querySelector('.Parte2');
+       const observer = new IntersectionObserver((entries) => {
+         entries.forEach(entry => {
+           if (entry.isIntersecting) {
+             parte2.classList.add('fade-in');
+           } else {
+             parte2.classList.remove('fade-in');
+           }
+         });
+       }, { threshold: 0.2 });
+       observer.observe(parte2);
+     });
+
+     document.addEventListener('DOMContentLoaded', () => {
+          const parte3 = document.querySelector('.Parte3');
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                parte3.classList.add('fade-in');
+              } else {
+                parte3.classList.remove('fade-in');
+              }
+            });
+          }, { threshold: 0.2 });
+          observer.observe(parte3);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+             const parte4_1 = document.querySelector('.Parte4');
+             const observer = new IntersectionObserver((entries) => {
+               entries.forEach(entry => {
+                 if (entry.isIntersecting) {
+                   parte4_1.classList.add('fade-in');
+                 } else {
+                   parte4_1.classList.remove('fade-in');
+                 }
+               });
+             }, { threshold: 0.2 });
+             observer.observe(parte4_1);
+           });
+</script>
+    <header>
+      <img src="Assets/Imagenes/LOGO.png" alt="">
+    <li></li>
+    <li> <a href="Formulario.html">Formulario</a> </li>
+    <li><a href="Servicios.html">Nuestros Servicios</a> </li>
+    <li> <a href="Nosotros.html">Nosotros</a> </li>
+    <li id="PTI">Inicio</li>
+    </header>
+    <br><br><br>
+    <div class="Parte1">
+      <br>
+<!-- <img src="Assets/Imagenes/Fondo_1.jpeg" alt="" id="Imagen-Presentacion"> -->
+<h1>Tu clínica de confianza</h1>
+<h2>Un espacio donde el trato, la comodidad, y la asistencia al individuo son nuestro factor primordial y más importante.</h2>
+    </div>
+    <section>
+<h1>Agenda tu cita ya, dando click en el siguiente botón.</h1> <a href="https://forms.gle/acNRVkzJcHLTp5oE6">Generar cita</a>
+    </section>
+    <div class="Parte2">
+      <h2>¿En qué consiste la Fisioterapia?</h2>
+      <h1>
+<br>
+        El área de fisioterapia y rehabilitación es la encargada de evaluar y tratar a las personas que presentan algún
+         problema de movimiento o función debido a una lesión, enfermedad, envejecimiento o factores ambientales. Su objetivo
+         es promover el bienestar, la salud, la prevención y la recuperación de las capacidades físicas de los pacientes, mediante
+         el uso de ejercicios, equipamiento especializado y técnicas manuales.</h1>
+    </div>
+    <div class="Parte3">
+      <img src="Assets/Imagenes/Parte3.jpeg" alt="">
+      <h1>Servicio de medicina física</h1>
+      <h2>El área de medicina física se encarga de evaluar, diagnosticar y tratar las enfermedades y lesiones que afectan al
+        sistema nervioso, muscular y esquelético, y que causan dolor, discapacidad o limitación funcional <br><br>
+        #.Seleccionar al personal: buscar, evaluar y contratar a los candidatos más adecuados para cada puesto de trabajo, siguiendo criterios de calidad y eficiencia.
+  <br><br>
+  #.Manejar las relaciones con los colaboradores: resolver conflictos, negociar convenios, fomentar la comunicación, el compromiso y la satisfacción laboral, y velar por
+   el cumplimiento de las normas y los derechos de los trabajadores.
+  <br><br>
+  #.Mejorar los departamentos que conforman la empresa: analizar y diseñar los puestos de trabajo, definir las funciones y responsabilidades de cada empleado, y optimizar
+  los recursos y procesos.
+  <br><br>
+  #.Gestionar la satisfacción laboral: evaluar el clima y la cultura organizacional, implementar estrategias de motivación y reconocimiento, y promover un ambiente de trabajo
+   saludable y productivo. </h2>
+    </div>
+    <div class="Parte4">
+   <h1><b>Misión:</b> Nuestra misión es proporcionar tratamientos de fisioterapia de alta calidad y personalizados, centrados en la rehabilitación integral y el bienestar
+     de nuestros pacientes. Nos comprometemos a utilizar técnicas innovadoras y basadas en evidencia, mientras ofrecemos un entorno cálido y acogedor que promueve
+     la recuperación y mejora la calidad de vida de quienes confían en nuestros servicios.</h1>
+   <h1><b>Visión:</b> Ser reconocidos como líderes en la atención de fisioterapia, destacándonos por nuestra excelencia clínica, ética profesional y compromiso con la
+      mejora continua. Aspiramos a ser un referente en la comunidad por nuestra capacidad para transformar positivamente la salud y el bienestar de nuestros pacientes,
+       siendo siempre un lugar donde la confianza y el cuidado van de la mano</h1>
+    </div>
+    <footer>
+        <li> <h4>Página en Español</h4> <br> <h5>Ayuda, Errores y/o Aclaraciones</h5> <br> <h5>fermat.tese@gmail.com</h5> </li>
+        <li> <h4>Empresa</h4> <br><h5>© 2024 - Revive.com.mx - Todos los derechos reservados.</h5> <br> <h5>Tel. 55-3x72-0x13</h5> </li>
+    </footer>
+  </body>
+</html>
